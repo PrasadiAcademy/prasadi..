@@ -1,0 +1,68 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="pain.css">
+</head>
+<body>
+  <header>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo"><img src="logo.png" width="80" align="left" class="lo"></a>
+          <ul class="nav-links">
+            <li><a href="#"  id="link1">Home</a></li>
+            <li><a href="#" id="link2" >homework</a></li>
+            <li><a href="#"  class="active" >chat</a></li>
+            <li><a href="#" id="link3" >About</a></li>
+           
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="video-container">
+        <!-- Replace "video.mp4" with your actual video file -->
+        <video autoplay loop muted playsinline>
+          <source src="we.mp4" type="video/mp4">
+          <!-- Add other video sources as needed for different formats -->
+          <!-- <source src="video.webm" type="video/webm"> -->
+          <!-- <source src="video.ogv" type="video/ogg"> -->
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <script>
+        function pageTransition(targetURL) {
+    // Add your transition effect code here
+    document.body.classList.add("fadeOut");
+    setTimeout(function() {
+      // Redirect to the target URL after the transition effect
+      window.location.href = targetURL;
+    }, 500); // Adjust the timing based on your transition effect
+  }
+
+  // Get references to the anchor tags by their IDs
+  const link1 = document.getElementById("link1");
+  const link2 = document.getElementById("link2");
+  const link3 = document.getElementById("link3");
+
+  // Add onclick event listeners to the anchor tags
+  link1.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("index.html");
+  };
+
+  link2.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("sanat.html");
+  };
+
+  link3.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("newabout.html");
+  };
+      </script>
+ 
+</body>
+</html>
+     

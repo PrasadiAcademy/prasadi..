@@ -1,0 +1,230 @@
+/* styles.css */
+
+
+  
+  
+body{
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+      
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar {
+    background-color:rgba(5, 5, 115,0.9);
+    padding: 20px 0;
+    position: fixed;
+    width:100%;
+    border-radius: 20px;
+
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+   
+  }
+  img.lo{
+border-radius: 30px;
+  }
+  .hero {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color:#190a80;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    color: #190a80;
+    margin-bottom: 40px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .images-section {
+    padding: 50px 0;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image-item {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .image-description {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    position: relative; /* Add relative positioning for the underline effect */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Underline effect for navbar links on hover */
+  .nav-links a:hover::before {
+    content: ""; /* Create an empty pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* White underline color on hover */
+  }
+  
+  /* Underline effect for active page */
+  .nav-links a.active::before {
+    content: ""; /* Create an empty pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* White underline color for active page */
+  }
+  
+  /* Footer styles ... */
+  
+  /* Fading Animation */
+  .fadeOut {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+  img.e{
+    width:200px;
+    height:200px;
+    float:right;
+    border-radius: 80px;
+    
+    
+
+}
+img.c{
+    float:left;
+    margin: 20px 20px 20px 20px;
+    border-radius: 30px;
+}
+img.z{
+    float:right;
+    margin: 20px 20px 20px 20px;
+    border-radius: 30px;
+}
+
+#popupAd{
+
+        transform: translate(-50%,-50%);
+        pointer-events: auto;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50% ,calc(-50%+50px));
+        padding: 50px 60px 70px;
+        text-align:center;
+        background: #fff;
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 40px;
+        background-image:url(dui.png);
+        width: 500px;
+        height: 500px;
+        transition:all 700ms ease;
+     
+        
+      
+    
+    
+    
+}
+
+#popupContainer {
+    background: rgba(12, 3, 3,0.4);
+position:fixed;
+left:0;
+top:0;
+height: 100vh;
+width: 100%;
+transition:all 700ms ease;
+}
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h1.run{
+  font-size: 19px;
+  font-family: cursive;
+}
+footer {
+  background: linear-gradient(to bottom, #190a80, #190a80);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}

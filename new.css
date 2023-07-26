@@ -1,0 +1,172 @@
+
+body{
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+    
+   
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  .navbar {
+    background-color:#190a80;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color:#190a80;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    color: #190a80;
+    margin-bottom: 40px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About section styles */
+  .about {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #190a80;
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: linear-gradient(to bottom, #190a80, #190a80);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  \.navbar {
+    
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    position: relative; /* Add relative positioning for the underline effect */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Underline effect for navbar links on hover */
+  .nav-links a:hover::before {
+    content: ""; /* Create an empty pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* White underline color on hover */
+  }
+  
+  /* Underline effect for active page */
+  .nav-links a.active::before {
+    content: ""; /* Create an empty pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* White underline color for active page */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  img.b{
+    width: 550px;
+    height: 300px;
+    float:left;
+    margin: 20px 20px 20px 20px;
+    border-radius: 30px;
+}
+img.o{
+    width: 550px;
+    height: 300px;
+    float:right;
+
+    border-radius: 30px;
+}

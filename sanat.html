@@ -1,0 +1,125 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="sumo.css">
+</head>
+<body>
+  <header>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo"><img src="logo.png" width="80" align="left" class="lo"></a>
+          <ul class="nav-links">
+            <li><a href="#" id="link1"  >Home</a></li>
+            <li><a href="#" class="active" >homework</a></li>
+            <li><a href="#" id="link2" >notice</a></li>
+            <li><a href="#" id="link3" >About</a></li>
+           
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>
+    
+
+    <div class="wraper">
+      <div class="div-1">
+        <div class="content">
+          <h1>PHYSICS</h1>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+        </div>
+      </div>
+      <div class="div-2">
+        <div class="content">
+          <h1></h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet commodi nisi beatae illo similique explicabo modi deleniti obcaecati, voluptatibus consequatur dolor distinctio rerum, cupiditate ducimus saepe laborum facere ad!
+        </div>
+      </div>
+    </div><br><br><br>
+    
+    <div class="wraper">
+      <div class="div-1">
+        <div class="content">
+          <h1>MATHS</h1>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+        </div>
+      </div>
+      <div class="div-2">
+        <div class="content">
+          <h1>Second Div</h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet commodi nisi beatae illo similique explicabo modi deleniti obcaecati, voluptatibus consequatur dolor distinctio rerum, cupiditate ducimus saepe laborum facere ad!
+        </div>
+      </div>
+    </div><br><br><br>
+    
+    <div class="wraper">
+      <div class="div-1">
+        <div class="content">
+          <h1>CHEMISTRY</h1>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+        </div>
+      </div>
+      <div class="div-2">
+        <div class="content">
+          <h1>Second Div</h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet commodi nisi beatae illo similique explicabo modi deleniti obcaecati, voluptatibus consequatur dolor distinctio rerum, cupiditate ducimus saepe laborum facere ad!
+        </div>
+      </div>
+    </div><br><br><br>
+    
+    <div class="wraper">
+      <div class="div-1">
+        <div class="content">
+          <h1>PHYSICS PRACTICAL</h1>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+        </div>
+      </div>
+      <div class="div-2">
+        <div class="content">
+          <h1>CHEMISTRY PRACTICAL</h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet commodi nisi beatae illo similique explicabo modi deleniti obcaecati, voluptatibus consequatur dolor distinctio rerum, cupiditate ducimus saepe laborum facere ad!
+        </div>
+      </div>
+    </div><br><br><br>
+      
+  <footer>
+    <div class="container">
+      <p>&copy; 2023     All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    function pageTransition(targetURL) {
+    // Add your transition effect code here
+    document.body.classList.add("fadeOut");
+    setTimeout(function() {
+      // Redirect to the target URL after the transition effect
+      window.location.href = targetURL;
+    }, 500); // Adjust the timing based on your transition effect
+  }
+
+  // Get references to the anchor tags by their IDs
+  const link1 = document.getElementById("link1");
+  const link2 = document.getElementById("link2");
+  const link3 = document.getElementById("link3");
+
+  // Add onclick event listeners to the anchor tags
+  link1.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("index.html");
+  };
+
+  link2.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("chat.html");
+  };
+
+  link3.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("newabout.html");
+  };
+  </script>
+ 
+</body>
+</html>
+     

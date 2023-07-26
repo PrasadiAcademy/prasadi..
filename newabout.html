@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="nabout.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="container">
+            <a href="#" class="logo"><img src="logo.png" width="80" align="left" class="lo"></a>
+            <ul class="nav-links">
+              <li><a href="#"  id="link1">Home</a></li>
+              <li><a href="#" id="link2" >homework</a></li>
+              <li><a href="#"  id="link3" >chat</a></li>
+              <li><a href="#"  class="active" >About</a></li>
+             
+              
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+  <main>
+  
+    <section class="hero">
+        <div class="container">
+          <h1>About Us</h1>
+          <p>"who we are"</p>
+          <a href="#" class="cta-btn">Learn More</a>
+        </div>
+      </section>
+      <div>
+        <img src="d.jpg" class="e"><h1 class="run">
+        we students of prasadi academy of section c2 have created an experiemental site for the conetent material.
+        The content are of study notes and more.all the elements of the website can be used for the advancement of the course content.
+        this is an experiemental site so the content can be modified and changed.The notes of subject are update from
+        time to time and modified as your request.
+</h1><br><br>
+<div><h1 align="right">in partnership with</h1></div>
+          <div id="popupContainer">
+    
+    <div id="popupAd">
+        <button id="closeBtn">Close</button>
+            <a class="we" href="https://www.duipaila.com/">click here</a>
+    </div>
+</div>
+<script src="chat.js"></script>
+<img src="i.jpg" width="300px" class="c"><br><br><H1 >CONTENT SUPERVISOR</H1><H2>"be punctual in life and life will be punctual with you"</H2>
+<br><br>
+<img src="p.jpg" width="300px" class="z" align="right"><br><br><H1>CSS FRAMWORKER</H1><H2 align="center">"the journey of study is very hard and long"</H2>
+<br><br><img src="subeg.jpg" width="300px" height="250px" class="c"><br><br><H1 >DEBUGGER</H1><H2 >"you should love yourself first to love others"</H2>
+    <br><br><img src="n.jpg" width="300px" class="z" align="right"><br><br><H1 >JAVA SCRIPT DESIGNER</H1><H2 align="center" ">"be a placid unided person"</H2> <br><br><br><br><br><br><br><br><br>
+    <h2 align="left" >for any suggestion mail us at prasadiacademy5@gamil.com</h2>
+    <br><br><br><br>
+  
+</div>
+
+    <section class="images-section">
+      <div class="image-container">
+        <!-- Image 1 with description -->
+        <div class="image-item">
+          <img src="p.jpg" alt="Image 1">
+          <div class="image-description">Description for Image 1</div>
+        </div>
+
+        <!-- Image 2 with description -->
+        <div class="image-item">
+          <img src="sarad.JPG" alt="Image 2">
+          <div class="image-description">Description for Image 2</div>
+        </div>
+
+  
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Website. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+  function pageTransition(targetURL) {
+    // Add your transition effect code here
+    document.body.classList.add("fadeOut");
+    setTimeout(function() {
+      // Redirect to the target URL after the transition effect
+      window.location.href = targetURL;
+    }, 500); // Adjust the timing based on your transition effect
+  }
+
+  // Get references to the anchor tags by their IDs
+  const link1 = document.getElementById("link1");
+  const link2 = document.getElementById("link2");
+  const link3 = document.getElementById("link3");
+
+  // Add onclick event listeners to the anchor tags
+  link1.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("index.html");
+  };
+
+  link2.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("sanat.html");
+  };
+
+  link3.onclick = function() {
+    // Call the pageTransition function with the target URL as an argument
+    pageTransition("chat.html");
+  };
+  </script>
+
+</body>
+</html>
