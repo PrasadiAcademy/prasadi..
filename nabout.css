@@ -188,8 +188,9 @@ img.z{
         font-family:'Times New Roman', Times, serif;
         border-radius: 40px;
         background-image:url(dui.png);
-        width: 500px;
-        height: 500px;
+       width: 60%; /* Set the width to 80% of the screen width */
+  max-width: 80%; /* Optionally set a maximum width to prevent the ad from becoming too large */
+  height:50vh;
         transition:all 700ms ease;
      
         
