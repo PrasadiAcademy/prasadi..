@@ -174,55 +174,6 @@ img.z{
     border-radius: 30px;
 }
 
-#popupAd{
-
-        transform: translate(-50%,-50%);
-        pointer-events: auto;
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50% ,calc(-50%+50px));
-        padding: 50px 60px 70px;
-        text-align:center;
-        background: #fff;
-        font-family:'Times New Roman', Times, serif;
-        border-radius: 40px;
-        background-image:url(dui.png);
-       width: 60%; /* Set the width to 80% of the screen width */
-  max-width: 80%; /* Optionally set a maximum width to prevent the ad from becoming too large */
-  height:50vh;
-        transition:all 700ms ease;
-     
-        
-      
-    
-    
-    
-}
-
-#popupContainer {
-    background: rgba(12, 3, 3,0.4);
-position:fixed;
-left:0;
-top:0;
-height: 100vh;
-width: 100%;
-transition:all 700ms ease;
-}
-#closeBtn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: grey;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-h1.run{
-  font-size: 19px;
-  font-family: cursive;
-}
 footer {
   background: linear-gradient(to bottom, #190a80, #190a80);
   color: #fff;
