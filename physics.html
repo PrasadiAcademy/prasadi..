@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(z.png);
+            /* Set background image to cover the entire viewport */
+            background-size: cover;
+        }
+
+        .re {
+            height: 100vh;
+            width: 100%;
+            /* Center the content vertically */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* New class for the blurred background */
+        .background-blur {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(z.png);
+            /* Apply the blur effect to the background image */
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .exercise {
+            background-color: rgba(5, 5, 115, 0.9);
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .exercise a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .exercise h1 {
+            margin: 0;
+        }
+
+        .exercise h2 {
+            margin: 0;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="re">
+        <!-- Element for the blurred background -->
+        <div class="background-blur"></div>
+        <div>
+            <h1 align="center"><u>HOMEWORK CHAPTERS</u></h1>
+        </div>
+        <ol>
+            <div class="exercise">
+                <a href="ro.pdf" download>
+                    <h1>Rotational dyanamics</h1>
+                    <h2>all  ticked questions solved with short answer.</h2>
+                </a>
+            </div>
+
+            <div class="exercise">
+                <a href="motion.pdf" download>
+                    <h1>Periodic Motion</h1>
+                    <h2>all the numerical with highlited part, fair handriting.</h2>
+                </a>
+            </div>
+
+                    </ol>
+    </div>
+</body>
+</html>
