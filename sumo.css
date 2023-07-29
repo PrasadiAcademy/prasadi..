@@ -163,3 +163,6 @@ border-radius: 30px;
   opacity: 0;
   transition: opacity 0.8s ease;
 }
+.div-1 .content H1{
+  color: #f9f9f9;
+}
