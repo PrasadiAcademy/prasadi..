@@ -19,18 +19,36 @@
           </ul>
         </div>
       </nav>
-    </header>
+    </header><br><br><br><br><br><br><br>
+  
 
-    <div class="video-container">
-        <!-- Replace "video.mp4" with your actual video file -->
-        <video autoplay loop muted playsinline>
-          <source src="we.mp4" type="video/mp4">
-          <!-- Add other video sources as needed for different formats -->
-          <!-- <source src="video.webm" type="video/webm"> -->
-          <!-- <source src="video.ogv" type="video/ogg"> -->
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <div class="new">
+      <p class="no">SASWOT ACHARYA</p>
+      <P>i cant take it anymore i wanted to be a cricket player.</P>
+    </div><br>
+    <div class="fun">
+      <p class="no">SUBEG MAHARJAN</p>
+      <P>maybe my dreams will be only dreams</P>
+    </div><br>
+      
+    <div class="new">
+      <p class="no">SARAD RAI</p>
+      <P>i just want to switch the colledge.</P>
+    </div><br>
+    <div class="fun">
+      <p class="no">  UNKNOWN</p>
+      <P>   WHY! always me oh god.</P>
+    </div>
+    
+
+
+  <div class="message-input">
+    <input type="text" placeholder="Type your message...">
+    <button id="redirectButton">Send</button>
+  </div>
+</div>
+   
+      
       <script>
         function pageTransition(targetURL) {
     // Add your transition effect code here
@@ -61,6 +79,16 @@
     // Call the pageTransition function with the target URL as an argument
     pageTransition("newabout.html");
   };
+  const redirectButton = document.getElementById("redirectButton");
+
+  // Add click event listener to the button
+  redirectButton.addEventListener("click", function() {
+    // Define the URL you want to redirect to
+    const targetURL = "https://www.youtube.com"; // Replace with your desired URL
+    
+    // Redirect to the target URL
+    window.location.href = targetURL;
+  });
       </script>
  
 </body>
