@@ -194,3 +194,36 @@ h2.p{
   font-size: 19px;
   font-family: cursive;
 }
+.images-section {
+  display: flex; 
+  width: 100%;/* Set the section to use flexbox layout */
+  background-color: #f9f9f9;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-item {
+  width: calc(20% - 40px); /* Divide width equally for 5 images with 20px margins */
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-description {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+.art{
+  margin-top: 20px;
+}
