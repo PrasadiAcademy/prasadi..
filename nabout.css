@@ -1,15 +1,4 @@
-/* styles.css */
-
-
-  
-  
-body{
-    height:100vh;
-    width:100%;
-    position:relative;
-}
-      
-  .container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -174,6 +163,12 @@ img.z{
     border-radius: 30px;
 }
 
+
+
+h1.run{
+  font-size: 19px;
+  font-family: cursive;
+}
 footer {
   background: linear-gradient(to bottom, #190a80, #190a80);
   color: #fff;
